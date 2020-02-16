@@ -1,0 +1,90 @@
+table {
+  border-spacing: 0;
+}
+td,
+th {
+  text-align: center;
+  padding: 0.5vw;
+}
+th {
+  border: 1px solid white;
+  background-color: #19c1f3;
+  color: white;
+}
+td {
+  border: 1px solid white;
+}
+th.left {
+  border-radius: 20px;
+}
+
+thead tr:first-child th:first-child {
+  border-radius: 0.6em 0 0 0;
+}
+thead tr:first-child th:last-child {
+  border-radius: 0 0.6em 0 0;
+}
+tbody tr:last-child td:first-child {
+  border-radius: 0 0 0 0.6em;
+}
+tbody tr:last-child td:last-child {
+  border-radius: 0 0 0.6em 0;
+}
+tbody tr:nth-child(odd) {
+  background-color: white;
+}
+tbody tr:nth-child(even) {
+  background-color: rgb(230, 232, 235);
+}
+
+table tr:first-child th {
+  border-top: 0;
+}
+table tr td:first-child,
+table tr th:first-child {
+  border-left: 0;
+}
+table tr:last-child td {
+  border-bottom: 0;
+}
+table tr td:last-child,
+table tr th:last-child {
+  border-right: 0;
+}
+.bold {
+  font-weight: bold;
+  color: #007FC7;
+}
+
+.info {
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: column;
+}
+.info-line {
+  margin-bottom: 0.5vh;
+}
+.info-line > span {
+  position: relative;
+}
+.connected {
+  position: absolute;
+  box-sizing: border-box;
+  border-radius: 100%;
+  width: 18px;
+  height: 18px;
+  margin-left: 0.5vw;
+  padding-top: 0.5vw;
+  right: -25px;
+}
+.on {
+  background-color: green;
+}
+.off {
+  background-color: red;
+}
+.logo {
+  position: absolute;
+  bottom: 2vh;
+  right: 2vw;
+}

@@ -1,0 +1,18 @@
+*{
+  user-select: none;
+}
+body {
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(234, 236, 239);
+  color: black;
+  padding: 1vw;
+  font-size: 1.25em;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

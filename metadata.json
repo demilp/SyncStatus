@@ -1,0 +1,30 @@
+{
+  "author": "Dex Manager",
+  "name": "DexSyncStatus",
+  "description": "Dex Sync Status",
+  "version": "0.11.2002.1104",
+  "icon": "icon.png",
+  "preview": [
+    "icon.png"
+  ],
+  "tags": [
+    "Tool"
+  ],
+  "properties": {
+    "minWidth": 480,
+    "minHeight": 480,
+    "responsive": true,
+    "fonts": []
+  },
+  "bindings": [
+    {
+      "id": "refreshTime",
+      "name": "Refresh Time",
+      "type": "String",
+      "value": 10,
+      "rules": {
+        "required": true
+      }
+    }
+  ]
+}
