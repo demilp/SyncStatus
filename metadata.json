@@ -2,7 +2,7 @@
   "author": "Dex Manager",
   "name": "DexSyncStatus",
   "description": "Dex Sync Status",
-  "version": "0.11.2002.1104",
+  "version": "2.2.2003.1600",
   "icon": "icon.png",
   "preview": [
     "icon.png"
@@ -21,7 +21,7 @@
       "id": "refreshTime",
       "name": "Refresh Time",
       "type": "String",
-      "value": 10,
+      "value": 25,
       "rules": {
         "required": true
       }

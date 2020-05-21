@@ -6,7 +6,7 @@ import App from "./App";
 window.log = function(message) {
   let l = {
     type: "log",
-    content: { tag: "[Turnero]", message: message },
+    content: { tag: "[Dex Sync Status]", message: message },
     origin: "DexTemplate"
   };
   console.log(l.content.message);

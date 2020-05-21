@@ -53,13 +53,13 @@ table tr th:last-child {
 }
 .bold {
   font-weight: bold;
-  color: #007FC7;
+  color: #007fc7;
 }
 
 .info {
-  margin-top: 1vh;
   display: flex;
   flex-direction: column;
+  margin-right: auto;
 }
 .info-line {
   margin-bottom: 0.5vh;
@@ -83,8 +83,39 @@ table tr th:last-child {
 .off {
   background-color: red;
 }
+.bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 1vh;
+  justify-content: flex-end;
+}
+.download-data {
+  font-size: 0.7em;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 1vw 0 1vw;
+}
+.download-data > span {
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+video {
+  width: 25%;
+}
+.pings {
+  margin-top: 0;
+}
 .logo {
   position: absolute;
   bottom: 2vh;
   right: 2vw;
+  z-index: -1;
+}
+button {
+  background: #19c1f3;
+  color: white;
+  border: 0;
+  padding: 6px;
 }

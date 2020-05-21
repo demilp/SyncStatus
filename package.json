@@ -7,11 +7,13 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
-    "dex-template-webpack-plugin": "^1.0.3",
+    "lodash": "^4.17.15",
     "react": "^16.12.0",
     "react-app-polyfill": "^1.0.6",
     "react-dom": "^16.12.0",
-    "react-scripts": "3.3.1"
+    "react-scripts": "3.3.1",
+    "rxjs": "^6.5.4",
+    "socket.io-client": "^2.3.0"
   },
   "scripts": {
     "start": "react-app-rewired start",
@@ -35,6 +37,9 @@
     ]
   },
   "devDependencies": {
+    "dex-template-webpack-plugin": "^1.0.3",
+    "html-webpack-inline-source-plugin": "^0.0.10",
+    "html-webpack-plugin": "^3.2.0",
     "react-app-rewired": "^2.1.5"
   }
 }
